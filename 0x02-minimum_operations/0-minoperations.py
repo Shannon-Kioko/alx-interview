@@ -1,7 +1,9 @@
+#!/usr/bin/python3
+
 def minOperations(n):
     if n <= 1:
         return 0
-    
+
     divisor = 2
     number_of_operations = 0
 
@@ -11,5 +13,5 @@ def minOperations(n):
             number_of_operations += divisor
         else:
             divisor += 1
-    
+
     return number_of_operations
