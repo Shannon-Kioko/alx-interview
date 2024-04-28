@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """
 This script computes the minimum number of operations
-required to copy all and paste ceratin number of 'H' characters 
+required to copy all and paste ceratin number of 'H' characters
 """
+
+
 def minOperations(n):
     """
     Method for compute the minimum number
