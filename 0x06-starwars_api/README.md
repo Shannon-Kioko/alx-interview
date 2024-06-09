@@ -29,7 +29,9 @@ The “0. Star Wars Characters” project requires you to interact with an exter
 - (JavaScript Array Methods)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array]
 
 # More Info
+
 ## Install Node 10
+
 ```Bash
 $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
@@ -43,6 +45,7 @@ $ sudo npm install semistandard --global
 ```
 
 ## Install request module and use it
+
 (Documentation)[https://github.com/request/request]
 
 ```Bash
