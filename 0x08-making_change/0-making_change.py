@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import time
 """
 Python script to solve a dynamic programming problem
 """
