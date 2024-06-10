@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Python script to solve a dynamic programming problem
+"""
 def makeChange(coins, total):
     """
     Function to calculate the minimum number of coins needed to make a given total.
