@@ -35,5 +35,4 @@ def makeChange(coins, total):
             if coin <= i:
                 dp[i] = min(dp[i-coin]+1, dp[i])
     return dp[-1]
-
-print(makeChange([], 1))
+    
