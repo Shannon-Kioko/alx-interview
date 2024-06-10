@@ -20,6 +20,8 @@ def makeChange(coins, total):
     int: The minimum number of coins needed to make the given total. If it's not possible to make the total 
     with the given coins, it returns -1.
     """
+    if not coins:
+        return -1
     if total <= 0:
         return 0
     if total < min(coins):
@@ -33,3 +35,5 @@ def makeChange(coins, total):
             if coin <= i:
                 dp[i] = min(dp[i-coin]+1, dp[i])
     return dp[-1]
+
+print(makeChange([], 1))
